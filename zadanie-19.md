@@ -1,0 +1,1 @@
+dal dobry kod ale jest taki problem ze sie wysypal przez to ze chcialem go dac w .md przez co gemini stworzyl ten plik ale przy okazji sam odczytal go tworzac niepotrzebnei 2 razy to samo.
