@@ -71,4 +71,4 @@ Aby Twoja współpraca z AI w kolejnych projektach DevOps była jeszcze bardziej
 Jak oceniasz to podsumowanie w kontekście swoich 25 zadań? Czy któryś z tych wniosków szczególnie mocno pokrywa się z sytuacją, która zaskoczyła Cię podczas pracy?
 
 
-dobrze wszystko opisal w punktach ładnie i czytelnie
+Dobrze wszystko opisal w punktach ładnie i czytelnie co prawda pare razy sie mylil przy tych plikach .md ale na ogół dobrze mu poszło(gemini 3.5 flash).
