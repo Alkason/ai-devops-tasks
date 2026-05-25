@@ -1,0 +1,1 @@
+znowu pojawil sie problem ze zrobieniem .md pliku przez gemini bo sam go odczytuje przez co stworzona dokumentacja nie jest przejrzysta ale sama tresc jest ok.
