@@ -1,0 +1,59 @@
+# ==============================================================================
+# .gitignore - Node.js + Docker + Lokalna baza MongoDB
+# ==============================================================================
+
+# Node.js / Zależności i logi pakietów
+# ------------------------------------------------------------------------------
+node_modules/
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+/.pnpm-debug.log*
+.pnpm-store/
+
+# Środowisko i sekrety (Zawsze ignoruj dane logowania do bazy itp.)
+# ------------------------------------------------------------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Docker i kontenery
+# ------------------------------------------------------------------------------
+# Ignorujemy lokalne pliki nadpisujące konfigurację Docker Compose
+docker-compose.override.yml
+*.dev.yml
+
+# MongoDB / Dane lokalnej bazy danych (Kluczowe!)
+# ------------------------------------------------------------------------------
+# Ignorujemy katalogi, w których wolumeny Dockera montują i zapisują dane bazy,
+# aby nie wysyłać gigabajtów plików binarnych oraz poufnych danych na repozytorium.
+data/
+db/
+.mongodb/
+mongodb_data/
+/data/db/
+
+# Testy i raporty pokrycia kodu
+# ------------------------------------------------------------------------------
+coverage/
+*.lcov
+.nyc_output
+
+# Buildy i pamięć podręczna (Cache)
+# ------------------------------------------------------------------------------
+dist/
+build/
+.cache/
+.eslintcache
+.tsbuildinfo
+
+# Pliki systemowe i edytorów (VS Code, WebStorm, macOS itp.)
+# ------------------------------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
